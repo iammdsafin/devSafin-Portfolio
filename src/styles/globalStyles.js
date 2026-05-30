@@ -1,8 +1,7 @@
 const GS = `
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
-*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;font-family:Consolas, "Lucida Console", Monaco, monospace !important;}
 html{scroll-behavior:smooth;}
-body{cursor:none;-webkit-font-smoothing:antialiased;overflow-x:hidden;font-family:'Inter',system-ui,sans-serif;}
+body{cursor:none;-webkit-font-smoothing:antialiased;overflow-x:hidden;}
 a{text-decoration:none;cursor:none;}
 button{cursor:none;border:none;background:none;}
 ::-webkit-scrollbar{width:3px;}
